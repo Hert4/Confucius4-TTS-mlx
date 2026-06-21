@@ -1,0 +1,10 @@
+# Inference (torch-free). Plus the confucius4 model class from mlx-audio:
+#   pip install "git+https://github.com/Hert4/mlx-audio.git@add-confucius4-tts"
+mlx
+numpy
+soundfile
+librosa
+tokenizers
+
+# Weight conversion only (confucius4/convert.py) — not needed at inference:
+#   torch transformers safetensors huggingface_hub

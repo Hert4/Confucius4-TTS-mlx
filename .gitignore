@@ -1,0 +1,23 @@
+# weights / model dirs (live on the HF Hub, built via convert.py)
+*.safetensors
+*.npz
+*.pt
+*.bin
+confucius4-model*/
+*-int8/
+*-int4/
+weights/
+
+# audio + reference clip
+*.wav
+
+# python / env
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# logs / scratch
+*.log
+out/
