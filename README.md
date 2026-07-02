@@ -7,8 +7,7 @@ Vietnamese) — running on **Apple Silicon**. The official model is CUDA-only; t
 re-implements the pipeline in MLX (torch-free inference) and was validated
 numerically against the original PyTorch model at every stage.
 
-> Also submitted upstream as mlx-audio
-> [PR #799](https://github.com/Blaizzy/mlx-audio/pull/799).
+> The model has been integrated into mlx-audio, so you can use it there ! 
 
 ## Pipeline
 
